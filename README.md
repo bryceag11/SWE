@@ -1,2 +1,2 @@
 # SWE
-Work done for software engineering at UKY.
+CS216 work from University of Kentucky
