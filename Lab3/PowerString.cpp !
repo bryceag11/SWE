@@ -1,0 +1,87 @@
+
+/* 
+ * File:   PowerString.cpp
+ * Purpose: provide the definition of the PowerString class
+ *
+ * Author: (Bryce Grant)
+ *
+ */
+#include <iostream>
+#include <stack>
+#include "PowerString.h"
+
+// initialize str with ini_str passing as a parameter
+PowerString::PowerString(string ini_str)
+{
+	string str = ini_str;
+}
+
+// return the current value of the private data member: str
+string PowerString::getString() const
+{
+	return str;
+}
+
+// set the value of str to be the passed in parameter input_str
+void PowerString::setString(string input_str)
+{
+	str = input_str;
+}
+
+// return a reverse string
+// using a loop to implement
+// Note that the private data member named str, has not been changed
+string PowerString::rev_loop() const
+{
+
+}
+
+// return a reverse string
+// using recursion to implement
+// Note that the private data member named str, has not been changed
+string PowerString::rev_recursion() const
+{
+
+}
+
+// return a reverse string
+// using a stack to implement
+// Note that the private data member named str, has not been changed
+string PowerString::rev_stack() const
+{
+
+}
+
+// return true if str is a palindrome
+// otherwise return false
+// A palindrome is defined as a sequence of characters which reads the same backward as forward
+// calling member function to  implement
+// Note that the private data member named str, has not been changed
+bool PowerString::isPalindrome() const
+{
+	if(str == rev_loop(str)):
+		return true;
+	else:
+		return false;
+}
+        
+// return true if str is a palindrome
+// otherwise return false
+// A palindrome is defined as a sequence of characters which reads the same backward as forward
+// using recursion to implement
+// Note that the private data member named str, has not been changed
+bool PowerString::isPalindrome_recursion() const
+{
+	if(str == rev_recursion(str)):
+		return true;
+	else:
+		return false;
+
+}
+        
+// displays str followed by a new line marker
+// to the standard output
+void PowerString::print() const
+{
+
+}
