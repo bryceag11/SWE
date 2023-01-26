@@ -1,0 +1,2 @@
+#5  0x000055555555a792 in analyzeCoActors (imdb=...) at Lab6.cpp:147
+#6  0x000055555555a373 in main (argc=2, argv=0x7fffffffe4b8) at Lab6.cpp:109
